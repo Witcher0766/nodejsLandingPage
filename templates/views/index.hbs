@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>links}}
+</head>
+<body>
+  
+    {{>navbar}}
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+
+
+{{!--  container-1  --}}
+<div class="main-container" >
+  <div class="about1">
+  <h1 class="text-black">WE WILL HELP YOU TO </h1>
+<h1 class="text-info">  GROW YOUR BUSINESS </h1>
+  
+  <p>We Are The Team Of Professional Developer</p>
+  <button class="btn btn-danger">Read More</button>
+  </div>
+
+  <div class="img1" data-aos="zoom-in">
+    <img src="images/illustration-1.jpg" alt="illustration-image">
+  </div>
+</div>
+
+
+
+{{!-- container-2  --}}
+{{>about}}
+
+
+
+{{>service}}
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    {{>maps}}
+
+       <div class="container-fluid" id="contact_us">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+
+            <div class="main-container-3">
+
+              <h1 class="contact1">Contact Us</h1>
+              <h4 class="contact2 mb-3">We will be happy to help you</h4>
+
+              {{>contact}}
+
+
+            </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+
+
+
+             {{>footer}}
+
+
+
+
+
+
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js">
+
+    </script>
+</body>
+</html>
